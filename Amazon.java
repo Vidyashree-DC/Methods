@@ -8,7 +8,7 @@ public class Amazon {
 		System.out.println("Electronic Items");
 		System.out.println("Footwears");
 	}
-	public static void addtoCart() {
+	public static void addToCart() {
 		System.out.println("Cart Items are : ");
 		System.out.println("Mobile phones");
 		System.out.println("Clothes");
@@ -19,6 +19,6 @@ public class Amazon {
 	}
 	
 	public static void main(String[] args) {
-		Amazon.addtoCart();
+		Amazon.addToCart();
 	}
 }
