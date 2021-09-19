@@ -1,15 +1,22 @@
 package com.Xworkz.Methods;
 
 public class VtuResultsLogin {
-	public static String result(String Usn ,int percentage ) {
-		
-		   return  "your total percentage is "+percentage;
-		     
+	public static double result(String Usn) {
+		String myUsn="1MM21CS130";
+		if(Usn==myUsn) {
+		 double result=71.2;
+		 return result;
+		}
+		else {
+			System.out.println("INVALID USN");
+		}
+		return 0;   
        }
 	public static void main(String[] args) {
-		
-	String result = VtuResultsLogin.result("1mm2200", 70);
-	System.out.println(result);
+		/*double result = VtuResultsLogin.result("1MM21CS130");
+		System.out.println(result);*/
+		double result = VtuResultsLogin.result("1MM21CS13");
+		System.out.println(result);
 	}
 }
 
